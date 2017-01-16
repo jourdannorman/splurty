@@ -38,3 +38,6 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Heroku Log Error Message Elaboration
+gem 'rails_12factor', group: :production
+
