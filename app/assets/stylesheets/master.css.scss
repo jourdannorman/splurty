@@ -1,5 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+/*Google Fonts Link*/
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,900');
 
 .clear {
   clear:both;
@@ -39,6 +41,8 @@
   color:black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
 }
 
 header {
@@ -48,6 +52,32 @@ header {
 hr {
   clear:both;
 }
+
+/*Google Fonts*/
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight:bold;
+  font-size: 48px;
+}
+
+
+/*Font Squirrel*/
+/*h1 {
+  font-family: 'latin_modern_roman_dunhil10Rg', serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+*/
+
+/*Google Fonts*/
+h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+/*Font Squirrel*/
+/*h2 {
+  font-family: 'latin_modern_roman_dunhil10Ob', serif;
+}*/
 
 
 
